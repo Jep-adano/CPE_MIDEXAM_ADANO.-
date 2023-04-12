@@ -28,7 +28,7 @@
   roles:
     - Application_server
 
- - name: install update (CentOS)
+  - name: install updates (CentOS)
     tags: always
     yum:
       update_only: yes
