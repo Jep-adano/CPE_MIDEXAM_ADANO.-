@@ -4,7 +4,6 @@
       - elasticsearch
       - kibana
       - logstash
-      - filebeat
     state: latest
     update_cache: yes
   when: ansible_distribution == "Ubuntu"
@@ -15,7 +14,6 @@
       - elasticsearch
       - kibana
       - logstash
-      - filebeat
     state: latest
     update_cache: yes
   when: ansible_distribution == "CentOS"
